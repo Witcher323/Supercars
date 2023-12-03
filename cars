@@ -1,0 +1,7 @@
+public class Supercars {
+    String make;
+    String model;
+    int horsePower;
+    String colour;
+    
+ }  
