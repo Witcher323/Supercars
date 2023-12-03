@@ -19,6 +19,14 @@ public static void main(String[] args) {
        
         Supercars myCar = new Supercars("Ferrari", "Testarossa", 650, "Red");
         myCar.drive("forward");
+       Supercars myCar1 = new Supercars("Porshe","911",400,"blue");
+        myCar1.drive("left");
+        Supercarc myCar2= new Supercars("Bugatti","Veron",380,"black");
+        mycar2.drive("right");
+        Supercarc myCar3= new Supercars("Mazda","Sport",300,"Green");
+        mycar3.drive("backwards");
+    }
+}
 
     
 
