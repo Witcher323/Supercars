@@ -15,5 +15,10 @@ public class Supercars {
   public void drive(String direction) {
         System.out.println("The " + colour + " " + make + model + " is driving " + direction+ horsePower);
     }  
+public static void main(String[] args) {
+       
+        Supercars myCar = new Supercars("Ferrari", "Testarossa", 650, "Red");
+        myCar.drive("forward");
+
     
 
