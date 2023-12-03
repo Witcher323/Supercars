@@ -5,3 +5,10 @@ public class Supercars {
     String colour;
     
  }  
+
+  public Supercars(String make, String model, int horsePower, String colour) {
+        this.make = make;
+        this.model = model;
+        this.horsePower = horsePower;
+        this.colour = colour;
+    }
