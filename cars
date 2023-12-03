@@ -5,3 +5,20 @@ public class Supercars {
     String colour;
     
  }  
+
+  public Supercars(String make, String model, int horsePower, String colour) {
+        this.make = make;
+        this.model = model;
+        this.horsePower = horsePower;
+        this.colour = colour;
+    }
+  public void drive(String direction) {
+        System.out.println("The " + colour + " " + make + model + " is driving " + direction+ horsePower);
+    }  
+public static void main(String[] args) {
+       
+        Supercars myCar = new Supercars("Ferrari", "Testarossa", 650, "Red");
+        myCar.drive("forward");
+
+    
+
