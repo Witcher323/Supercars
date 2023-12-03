@@ -12,3 +12,8 @@ public class Supercars {
         this.horsePower = horsePower;
         this.colour = colour;
     }
+  public void drive(String direction) {
+        System.out.println("The " + colour + " " + make + model + " is driving " + direction+ horsePower);
+    }  
+    
+
